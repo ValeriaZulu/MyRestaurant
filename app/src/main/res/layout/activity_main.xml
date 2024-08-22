@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDC7F6"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="100dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bienvenido"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:importantForAccessibility="no"
+            app:srcCompat="@drawable/logolondra"
+            tools:srcCompat="@drawable/logolondra" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selecciona_una_opci_n"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            tools:text="Selecciona una opción" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="37dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#24706E"
+            android:drawableLeft="@drawable/bbburger"
+            android:fontFamily="sans-serif-medium"
+            android:onClick="abrirMenu"
+            android:text="@string/app_menu"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            app:iconTint="@color/teal_200"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#24706E"
+            android:drawableLeft="@drawable/uuubicacion"
+            android:onClick="abrirSedes"
+            android:text="@string/app_sede"
+            android:textSize="14sp"
+            app:iconTint="@color/teal_200"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#267270"
+            android:drawableLeft="@drawable/mesa"
+            android:onClick="abrirReserva"
+            android:text="@string/app_reserva"
+            android:textSize="14sp"
+            tools:ignore="RtlHardcoded" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#24706E"
+            android:drawableLeft="@drawable/pedido"
+            android:onClick="abrirPedido"
+            android:text="@string/app_pedido"
+            android:textSize="14sp"
+            tools:ignore="RtlHardcoded" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

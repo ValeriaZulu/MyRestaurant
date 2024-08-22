@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">MyRestaurant</string>
+    <string name="app_menu">Conoce nuestro menú</string>
+    <string name="app_sede">Visita nuestras sedes</string>
+    <string name="app_reserva">Realiza tu reserva</string>
+    <string name="app_pedido">Realiza tu pedido</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="bienvenido">BIENVENIDO</string>
+    <string name="qu_deseas_hacer">¿Qué deseas hacer?</string>
+    <string name="selecciona_una_opci_n">Selecciona una opción</string>
+
+    //Entradas
+    <string name="entrada1">Snacks</string>
+    <string name="entrada2">Empanaditas</string>
+    <string name="entrada3">Pataconcitos</string>
+
+    <string name="ing_entrada1">Nuggets, Papitas, Chicharrón</string>
+    <string name="ing_entrada2">Carne, Pollo, Paisas</string>
+    <string name="ing_entrada3">Con hogao, Guamacole</string>
+
+    <string name="prec_entrada1">$10.000</string>
+    <string name="prec_entrada2">$8.000</string>
+    <string name="prec_entrada3">$9.000</string>
+
+    //Platos Fuertes
+    <string name="platoFuerte1">Ternera Burger</string>
+    <string name="platoFuerte2">Milanesa Burger</string>
+    <string name="platoFuerte3">Chorizo Burger</string>
+
+    <string name="ing_fuerte1">Carne de ternera y Ensalada de repollo</string>
+    <string name="ing_fuerte2">Milanesa de pollo, Ripio de papa y Lechuga</string>
+    <string name="ing_fuerte3">Chorizo argentino, Pepperoni y Chimichurri</string>
+
+    <string name="prec_fuerte1">$23.000</string>
+    <string name="prec_fuerte2">$25.000</string>
+    <string name="prec_fuerte3">$22.000</string>
+
+    //Bebidas
+    <string name="bebida1">Soda Michelada</string>
+    <string name="bebida2">Milo</string>
+    <string name="bebida3">Gaseosa</string>
+
+    <string name="opc_bebida1">Mango Biche, Frutos rojos</string>
+    <string name="opc_bebida2">Granizado, Frío, Caliente</string>
+    <string name="opc_bebida3">CocaCola, Manzana, Sprite</string>
+
+    <string name="prec_bebida1">$9.000</string>
+    <string name="prec_bebida2">$8.000</string>
+    <string name="prec_bebida3">$6.000</string>
+
+    //Postres
+    <string name="postre1">Tiramisu</string>
+    <string name="postre2">Rollo de fresa</string>
+    <string name="postre3">Cheescake</string>
+
+    <string name="ing_postre1">galleta champañera, jarabe de café, mezcla de crema y queso</string>
+    <string name="ing_postre2">Bizcochuelo relleno de crema de leche con fresas picadas</string>
+    <string name="ing_postre3">Base de galleta crocante, crema de queso, salsa de frutos rojos</string>
+
+    <string name="prec_postre1">$5.000</string>
+    <string name="prec_postre2">$15.000</string>
+    <string name="prec_postre3">$19.000</string>
+
+
+</resources>
