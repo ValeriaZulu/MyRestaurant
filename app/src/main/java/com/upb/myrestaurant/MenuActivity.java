@@ -68,6 +68,13 @@ public class MenuActivity extends ListActivity {
 
     }
 
+    public void abrirPromociones(View v){
+
+        Intent i;
+        i = new Intent(this,PromocionesActivity.class);
+        startActivity(i);
+    }
+
 
 
 }
